@@ -37,7 +37,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v4
         with:
-          images: ${{ env.REGISTRY }}/stunnel
+          images: ${{ env.REGISTRY }}/yshurik/stunnel
       -
         name: build
         uses: docker/build-push-action@v3
