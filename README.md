@@ -9,7 +9,7 @@ separate locations the container can work well as a transport layer.
 +------------+  +---------------+            +----------------+  +-------------+
 |container   |  |yshurik/stunnel|            |yshurik/stunnel |  |container    |
 |with service|--|with -s to make|..internet..|a client to make|--|with a client|
-|to proctect |  |secure tunnel  |            |endpoint to use |  |of host1     |
+|to protect  |  |secure tunnel  |            |endpoint to use |  |of host1     |
 +------------+  +---------------+            +----------------+  +-------------+
 ```
 
